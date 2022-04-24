@@ -195,6 +195,10 @@ a:focus {
     padding: 48px 24px 24px;
 }
 
+.o-row--neutral-x-light{
+    background: #F7F7F7;
+}
+
 @media (min-width: 768px) {
     .o-row {
         padding-left: 48px;
@@ -242,6 +246,7 @@ a:focus {
 
     .o-layout__item {
         flex-basis: 100%;
+        align-self: center;
     }
 
 /* gutter modifiers, these affect o-layout__item too */
@@ -354,6 +359,7 @@ a:focus {
 
 .o-section {
     display: flow-root;
+    margin-bottom: 50px;
 }
 
 .o-section + .o-section {
