@@ -281,6 +281,10 @@ a:focus {
     display: flow-root;
 }
 
+.o-row--gradient{
+    background: linear-gradient(#5051DB, #3887F7);
+}
+
 /* size modifiers */
 
 .o-row--lg {
